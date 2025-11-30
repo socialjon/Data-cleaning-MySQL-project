@@ -1,2 +1,3 @@
-# Research
-Personal projects fueled by passion
+MySQL Data Cleaning & Standardization Project
+
+Executed a full data-cleaning workflow on a large layoffs dataset using MySQL. The project involved creating staging tables, identifying and removing duplicate records with window functions (ROW_NUMBER()), and standardizing inconsistent fields across the dataset. Cleaned text fields using TRIM, corrected inconsistent industry and country labels (e.g., normalizing “crypto” variations to “Crypto”), converted date strings into proper DATE format, and resolved missing industry values through self-joins. Finally, removed irrelevant rows with null metrics and produced a fully standardized, duplicate-free dataset for downstream analysis.
